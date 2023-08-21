@@ -1,1 +1,1 @@
-Practicas Laboratorio de Computacion 2 - Brizio Mauro
+Prácticas Laboratorio de Computación 2 - BRIZIO, Mauro.
