@@ -1,0 +1,22 @@
+.main {
+    display: flex;
+    gap: 2px;
+    min-height: 100vh;
+    font-family: sans-serif;
+}
+
+.main .sidebar,
+.main .contenido {
+    height: 100vh;
+    padding: 12px 24px;
+}
+
+.main .sidebar {
+    background: rgb(133, 215, 239);
+    flex: 1;
+}
+
+.main .contenido {
+    background: rgb(193, 219, 210);
+    flex: 4;
+}
