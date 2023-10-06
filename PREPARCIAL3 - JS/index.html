@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PreParcial JS - Monedas de Cambio</title>
+    <script defer src="./js/script.js"></script>
+</head>
+<body>
+
+    <h2>Cotizacion</h2>
+
+    <form id="cambioCotizacioin">
+       <label for="pesoArg">Pesos Argentinos: </label>
+       <input type="number" id="pesoArg"> 
+
+       <label for="monedaExtranjera">Moneda Extranjera: </label>
+       <select id="monedaExtranjera">
+            <option value="dolar">Dolares</option>
+            <option value="euros">Euros</option>
+       </select>
+       
+       <button type="button" onclick="calcularCambio()">Calcular</button>
+    </form>
+
+    <h2 id="totalDeCambio">Total de Cambio: </h2>
+
+    <h2>Agregar nuevo tipo de cambio: </h2>
+
+    <label for="nuevaMoneda">Nombre de la moneda: </label>
+    <input type="text" id="nuevaMoneda">
+
+    <label for="costoNuevaMoneda">Costo de la moneda: </label>
+    <input type="number" id="costoNuevaMoneda">
+
+    <button type="button" onclick="agregarMoneda()">Agregar nueva moneda</button>
+
+    <h2 id="alertaDeCambio"></h2>
+</body>
+</html>
